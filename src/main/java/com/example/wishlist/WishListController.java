@@ -1,6 +1,6 @@
-package com.example.wishlist.wishlist;
+package com.example.wishlist;
 
-import com.example.wishlist.wishlist.domain.Wish;
+import com.example.wishlist.domain.Wish;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

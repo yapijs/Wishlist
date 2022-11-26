@@ -1,4 +1,4 @@
-package com.example.wishlist.wishlist.domain;
+package com.example.wishlist.domain;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;

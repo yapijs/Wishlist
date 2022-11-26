@@ -1,4 +1,4 @@
-package com.example.wishlist.config;
+package com.example.config;
 
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;

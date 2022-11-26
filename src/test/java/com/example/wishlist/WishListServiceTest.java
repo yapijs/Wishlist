@@ -1,8 +1,6 @@
 package com.example.wishlist;
 
-import com.example.wishlist.wishlist.WishListService;
-import com.example.wishlist.wishlist.WishRepository;
-import com.example.wishlist.wishlist.domain.Wish;
+import com.example.wishlist.domain.Wish;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
