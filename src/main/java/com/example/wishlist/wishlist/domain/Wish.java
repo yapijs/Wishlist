@@ -23,7 +23,7 @@ public class Wish {
     public Wish(String text) {
         this.text = text;
         this.createdAt = LocalDateTime.now().withNano(0);
-        this.modifiedAt = LocalDateTime.now().withNano(0);
+        this.modifiedAt = this.getCreatedAt();
     }
 
 

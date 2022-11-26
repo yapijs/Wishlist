@@ -1,9 +1,8 @@
--- liquibase formatted sql
+--liquibase formatted sql
 
 --changeset davis:0
 create sequence hibernate_sequence start 1 increment 1;
 
---changeset davis:1
 create table wish
 (
     id          int8         not null,

@@ -28,7 +28,7 @@ public class WishListController {
     }
 
     @PutMapping("/wish/{id}")
-    public Wish updateWish(@RequestBody String text, @PathVariable Long id) {
+    public Wish updateWish(@PathVariable Long id, @RequestBody String text) {
         return wishListService.updateWish(id, text);
     }
 
