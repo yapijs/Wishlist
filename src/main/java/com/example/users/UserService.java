@@ -17,6 +17,6 @@ public class UserService {
         return userList.getUsers().stream().map(User::getName)
                 .filter(Objects::nonNull)
                 .filter(s -> !s.isBlank())
-                .collect(Collectors.joining(", "));
+                .collect(Collectors.joining(", ")).concat(";");
     }
 }
