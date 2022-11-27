@@ -23,7 +23,7 @@ public class UserController {
     @ApiOperation(value = "Accepts object containing list of users")
     @PostMapping("/add")
     public String getUserList(@Valid @RequestBody UserList userList) {
-        return service.createUserStringFromUsers(userList);
+        return service.createUsernameString(userList);
     }
 
 }

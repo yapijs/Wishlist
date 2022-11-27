@@ -13,10 +13,9 @@ public class UserService {
     public UserService() {
     }
 
-    public String createUserStringFromUsers(UserList userList) {
-        return userList.getUsers().stream().map(User::getName)
-                .filter(Objects::nonNull)
-                .filter(s -> !s.isBlank())
+    public String createUsernameString(UserList userList) {
+        return userList.getUsers().stream()
+                .map(User::getName)
                 .collect(Collectors.joining(", ")).concat(";");
     }
 }
